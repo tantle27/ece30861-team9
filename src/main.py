@@ -8,7 +8,7 @@ from concurrent.futures import ProcessPoolExecutor
 from typing import Any, Dict, List, Optional, Tuple
 
 from src.metrics.metrics_calculator import MetricsCalculator
-
+print("MetricsCalculator imported successfully")
 
 # --- Environment validation ---
 def validate_environment():
